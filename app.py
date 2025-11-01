@@ -39,9 +39,11 @@ with st.expander('Analizar Polaridad y Subjetividad en un texto'):
         elif x <= -0.5:
             st.write( 'Es un sentimiento Negativo 😔')
             st.write( 'Recuerda que lo bueno de estar abajo es que solo queda volver a subir, tú puedes!')
+            st.image("fad098c27dda7bc19ed93a0b79105a70.gif")
         else:
             st.write( 'Es un sentimiento Neutral 😐')
             st.write( 'Hay días que simplemente no son buenos ni malos')
+            st.image("think-smart.gif")
 
 with st.expander('Corrección en inglés'):
        text2 = st.text_area('Escribe por favor: ',key='4')
