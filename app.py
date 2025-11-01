@@ -35,7 +35,7 @@ with st.expander('Analizar Polaridad y Subjetividad en un texto'):
         if x >= 0.5:
             st.write( 'Es un sentimiento Positivo 😊')
             st.write( 'La felicidad desborda de tu cuerpo, sigue así!')
-            st.gif("Shopping Bag.webm")
+            st.image("Shopping Bag.webm")
         elif x <= -0.5:
             st.write( 'Es un sentimiento Negativo 😔')
             st.write( 'Recuerda que lo bueno de estar abajo es que solo queda volver a subir, tú puedes!')
